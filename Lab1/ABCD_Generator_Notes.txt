@@ -1,0 +1,21 @@
+Julia Random Graph 1:
+julia C:\Users\tymon\Desktop\Projects\ABCDGraphGenerator\utils\deg_sampler.jl degrees.dat 3 5 50 1000 500 42 100
+    Expected value of degree: 8.327743727955891
+julia C:\Users\tymon\Desktop\Projects\ABCDGraphGenerator\utils\com_sampler.jl community_sizes.dat 2 50 500 1000 500 42 50
+    Expected value of community size: 127.09860509132484
+julia C:\Users\tymon\Desktop\Projects\ABCDGraphGenerator\utils\graph_sampler.jl network.dat community.dat degrees.dat community_sizes.dat xi 0.2 false false 42 50
+
+Julia Random Graph 2:
+julia C:\Users\tymon\Desktop\Projects\ABCDGraphGenerator\utils\deg_sampler.jl degrees.dat 3 2 30 2000 1000 42 100
+    Expected value of degree: 3.0376710077567863
+julia C:\Users\tymon\Desktop\Projects\ABCDGraphGenerator\utils\com_sampler.jl community_sizes.dat 2 50 1000 2000 1000 42 100
+    Expected value of community size: 156.5613820733916
+julia C:\Users\tymon\Desktop\Projects\ABCDGraphGenerator\utils\graph_sampler.jl network.dat community.dat degrees.dat community_sizes.dat xi 0.2 false false 42 100
+
+Julia Random Graph 3:
+julia C:\Users\tymon\Desktop\Projects\ABCDGraphGenerator\utils\deg_sampler.jl degrees.dat 2 6 50 4000 2000 42 150
+    Expected value of degree: 13.718732950773617
+julia C:\Users\tymon\Desktop\Projects\ABCDGraphGenerator\utils\com_sampler.jl community_sizes.dat 2 50 2000 4000 2000 42 150
+    Info: Expected value of community size: 187.76086148688563
+julia C:\Users\tymon\Desktop\Projects\ABCDGraphGenerator\utils\graph_sampler.jl network.dat community.dat degrees.dat community_sizes.dat xi 0.2 false false 42 150
+
